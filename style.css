@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(1, 350px)1fr;
+}
+
+/* nav-ber start */
+.nav-lymbuz {
+    margin-left: 30px;
+}
+.nav-lymbuz .navigation .chrome{
+    color: rgb(17, 222, 153);
+}
+.nav-lymbuz .navigation .chrome i{
+    color: rgb(37, 210, 153);
+}
+.nav-lymbuz .navigation div {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(151, 145, 145);
+}
+
+.nav-lymbuz .navigation div i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgb(155, 155, 216);
+}
+
+.nav-bar .new {
+    margin-left: 40px;
+}
+
+.nav-bar .new button {
+    padding: 20px 30px;
+    background-color: green;
+    border-radius: 30px;
+    border: 0;
+}
+
+.new button i {
+    display: none;
+}
+
+/* nav-ber end */
+/* profile start */
+.nav-propile {
+    background-color: blue;
+    margin-right: 0;
+}
+
+.profile {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profile-settings i {
+    margin-right: 5px;
+}
+
+/* profile end */
+
+/* index start */
+.index {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    margin-top: 10px;
+}
+
+/* index end */
+/* information start */
+.information-div {
+    margin-bottom: 4px;
+}
+
+.information-div .about {
+    background-color: rgb(188, 216, 207);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index .information .information-div .Acount:focus~.one{
+    display: block;
+    position: relative;
+}
+.index .information .information-div .one{
+    display: none;
+}
+.information-div .about div {
+    display: none;
+}
+
+.information-div .change {
+    background-color: rgb(188, 216, 207);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-div .Privacy {
+    background-color: rgb(188, 216, 207);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-div .Notification {
+    background-color: rgb(188, 216, 207);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-div .Acount {
+    background-color: darkslategray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.information-div .change div {
+    display: none;
+}
+.information-div .Privacy div {
+    display: none;
+}
+.information-div .Notification div {
+    display: none;
+}
+.information-div .Acount i {
+    display: none;
+}
+.information-div .log i {
+    display: none;
+}
+.information-div .log {
+    background-color: rgb(188, 216, 207);
+    padding: 20px;
+    border-radius: 5px;
+}
+.information-div .log i {
+    display: none;
+}
+/* information end */
+/* parsonal start */
+.parsonal {
+    background-color: white;
+}
+.camera{
+    background-color: rgb(132, 132, 119);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parsonal{
+    position: relative;
+}
+.name{
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    left: 20px;
+}
+.img-dow img{
+    position: relative;
+}
+.img-dow i{
+    content: '';
+    position: absolute;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    left: 90px;
+    bottom: 0;
+}
+.info{
+    position: relative;
+    top: 10px;
+    margin-left: 150px;
+}
+.camera i{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.img-dow{
+    content: "";
+}
+.img-dow img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+.lorem{
+    margin-top: 80px;
+    text-align: center;
+}
+.lorem p{
+    margin: 15px;
+}
+.lorem button{
+    padding: 20px 40px;
+    background-color: blue;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.lorem button a{
+    color: white;
+    font-size: 15px;
+}
+/* parsonal end */
+
+
+@media screen and (max-width:576px) {
+    body {
+        background-color: white;
+    }
+    section {
+        display: grid;
+        grid-template-columns: repeat(1, 80px)1fr;
+    }
+    .nav-bar {
+        align-items: center;
+        background-color: white;
+    }
+    .nav-lymbuz {
+        text-align: center;
+        margin-left: 0;
+    }
+    .nav-lymbuz .navigation div a {
+        display: none;
+    }
+    .nav-lymbuz .navigation div i {
+        display: block;
+
+    }
+
+    .nav-bar .new {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav-bar .new button {
+        padding: 10px 20px;
+    }
+
+    .new button i {
+        display: block;
+        background-color: white;
+        border: 0;
+    }
+
+    .new button a {
+        display: none;
+    }
+
+    .profile {
+        margin-right: 0;
+        font-size: 15px;
+        padding: 20px 2px;
+    }
+
+    .profile-settings i {
+        display: none;
+    }
+
+    .index {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    }
+
+    .information-div .about {
+        padding: 10px;
+    }
+
+    .information-div .about div {
+        display: block;
+    }
+
+    .information-div .change {
+        padding: 10px;
+    }
+
+    .information-div .change div{
+        display: block;
+    }
+    .information-div .Privacy {
+        padding: 10px;
+    }
+
+    .information-div .Privacy div{
+        display: block;
+    }
+    .information-div .Notification {
+        padding: 10px;
+    }
+
+    .information-div .Notification div{
+        display: block;
+    }
+    .information-div div a {
+        display: none;
+    }
+    .information-div .Acount{
+        padding: 10px;
+    }
+    .information-div .Acount i {
+        display: block;
+    }
+    .information-div .log{
+        padding: 10px;
+    }
+    .information-div .log i {
+        display: block;
+
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:991px) {
+    body {
+        background-color: white;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(1, 150px)1fr;
+    }
+    .nav-bar {
+        align-items: center;
+        background-color: white;
+    }
+    .nav-lymbuz {
+        text-align: center;
+        margin-left: 0;
+    }
+    .nav-lymbuz .navigation div a {
+        display: none;
+    }
+
+    .nav-lymbuz .navigation div i {
+        display: block;
+
+    }
+
+    .nav-bar .new {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav-bar .new button {
+        padding: 10px 20px;
+    }
+
+    .new button i {
+        display: block;
+        background-color: white;
+        border: 0;
+    }
+
+    .new button a {
+        display: none;
+    }
+
+    .profile {
+        margin-right: 0;
+        font-size: 20px;
+        padding: 20px 2px;
+    }
+
+    .profile-settings i {
+        display: none;
+    }
+    .index {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    .information-div .about {
+        padding: 15px;
+    }
+    .information-div .about div {
+        display: block;
+    }
+    .information-div .change {
+        padding: 15px;
+    }
+    .information-div .change div{
+        display: block;
+    }
+    .information-div .Privacy {
+        padding: 15px;
+    }
+    .information-div .Privacy div{
+        display: block;
+    }
+    .information-div .Notification {
+        padding: 15px;
+    }
+    .information-div .Notification div{
+        display: block;
+    }
+    .information-div div a {
+        display: none;
+    }
+    .information-div .Acount{
+        padding: 15px;
+    }
+    .information-div .Acount i {
+        display: block;
+    }
+    .information-div .log{
+        padding: 15px;
+    }
+    .information-div .log i {
+        display: block;
+    }
+}
